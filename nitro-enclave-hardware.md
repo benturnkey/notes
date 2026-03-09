@@ -12,7 +12,9 @@ The Nitro Controller evolved to include hypervisor virtualization, security, and
 
 In practice the Host VM communicates with the Nitro Controller via a virtual PCI device to provision and manage enclaves.
 
-Enclaves are highly restricted VMs that boot from an EIF format, which is a container format that wraps a traditional Dockerfile style application in nesecarry kernel and init code to run as a VM.
+ENCLAVE RESOURCES ARE PROVISIONED FROM HOST RESOURCES NOT ALLOCATED TO THE HOST VM.
+
+Enclaves are highly restricted VMs that boot from an EIF format, which is a container format that wraps a traditional Dockerfile style application in necessary kernel and init code to run as a VM.
 
 Host VM/Enclave communication occurs over a Linux VSOCK which is mediated by the Nitro Controller through the PCIe bus.
 
