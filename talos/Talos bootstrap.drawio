@@ -1,0 +1,251 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.6" pages="2">
+  <diagram name="Page-1" id="9Gg6LYHLFoN9uoXeEnIW">
+    <mxGraphModel dx="2044" dy="832" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="piIDCJWD84dvFeLeBGAb-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="control&lt;div&gt;plane&lt;/div&gt;&lt;div&gt;node 1&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="530" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="piIDCJWD84dvFeLeBGAb-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="control&lt;div&gt;plane&lt;/div&gt;&lt;div&gt;node 3&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="530" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="piIDCJWD84dvFeLeBGAb-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="control&lt;div&gt;plane&lt;/div&gt;&lt;div&gt;node 2&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="530" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="piIDCJWD84dvFeLeBGAb-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="trustd&lt;br&gt;nlb" vertex="1">
+          <mxGeometry height="80" width="80" x="410" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="piIDCJWD84dvFeLeBGAb-7" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="talos&lt;div&gt;api&lt;br&gt;nlb&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="410" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="piIDCJWD84dvFeLeBGAb-8" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="AWS&lt;div&gt;ASG&lt;/div&gt;" vertex="1">
+          <mxGeometry height="180" width="230" x="-180" y="305" as="geometry" />
+        </mxCell>
+        <mxCell id="piIDCJWD84dvFeLeBGAb-17" edge="1" parent="1" source="piIDCJWD84dvFeLeBGAb-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=60;exitDy=60;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="piIDCJWD84dvFeLeBGAb-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="piIDCJWD84dvFeLeBGAb-9" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" value="launch&lt;div&gt;template&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="60" x="-40" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="piIDCJWD84dvFeLeBGAb-28" edge="1" parent="1" source="piIDCJWD84dvFeLeBGAb-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="piIDCJWD84dvFeLeBGAb-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="330" />
+              <mxPoint x="300" y="330" />
+              <mxPoint x="300" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="piIDCJWD84dvFeLeBGAb-29" edge="1" parent="1" source="piIDCJWD84dvFeLeBGAb-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="piIDCJWD84dvFeLeBGAb-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="350" />
+              <mxPoint x="320" y="350" />
+              <mxPoint x="320" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="piIDCJWD84dvFeLeBGAb-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="New&lt;div&gt;Node&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="200" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="piIDCJWD84dvFeLeBGAb-16" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="AWS&lt;br&gt;metadata&lt;div&gt;service&lt;/div&gt;" vertex="1">
+          <mxGeometry height="180" width="300" x="-10" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="piIDCJWD84dvFeLeBGAb-19" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" value="&lt;h1 id=&quot;page-title&quot; class=&quot;text-2xl sm:text-3xl text-gray-900 tracking-tight dark:text-gray-200 [overflow-wrap:anywhere] font-bold break-all&quot; style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgba(59,130,246,.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; box-sizing: border-box; border-width: 0px; border-style: solid; border-color: rgb(229, 223, 225); margin: 0px; font-family: Inter, &amp;quot;Inter Fallback&amp;quot;, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, system-ui, sans-serif, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, system-ui, sans-serif; word-break: break-all; line-height: 2.25rem; letter-spacing: -0.025em; color: rgb(29, 24, 25); overflow-wrap: anywhere; text-align: start;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;MachineConfig&lt;/font&gt;&lt;/span&gt;&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="70" width="90" x="120" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="piIDCJWD84dvFeLeBGAb-23" edge="1" parent="1" source="piIDCJWD84dvFeLeBGAb-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="piIDCJWD84dvFeLeBGAb-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="116" y="317.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="piIDCJWD84dvFeLeBGAb-24" parent="1" style="points=[[0,0.5,0],[0.24,0,0],[0.5,0.28,0],[0.995,0.475,0],[0.5,0.72,0],[0.24,1,0]];verticalLabelPosition=bottom;sketch=0;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.key2;fillColor=none;strokeColor=#005073;" value="cluster&lt;div&gt;join&lt;/div&gt;&lt;div&gt;secret&lt;/div&gt;" vertex="1">
+          <mxGeometry height="22.5" width="50" x="210" y="247.5" as="geometry" />
+        </mxCell>
+        <mxCell id="piIDCJWD84dvFeLeBGAb-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="k8s api&lt;br&gt;nlb" vertex="1">
+          <mxGeometry height="80" width="80" x="410" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="piIDCJWD84dvFeLeBGAb-30" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" value="node&lt;div&gt;certs&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="60" x="350" y="10" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="TReEvpL8nB8xrZ2U2it6" name="Page-2">
+    <mxGraphModel dx="791" dy="832" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kH4mchJNZgV38grMBDT--15" edge="1" parent="1" source="kH4mchJNZgV38grMBDT--3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="kH4mchJNZgV38grMBDT--2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kH4mchJNZgV38grMBDT--3" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fontSize=17;verticalAlign=top;" value="Launch&lt;div&gt;Template&lt;/div&gt;" vertex="1">
+          <mxGeometry height="230" width="160" x="80" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="kH4mchJNZgV38grMBDT--1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="AWS ASG desired size &amp;gt; current size" vertex="1">
+          <mxGeometry height="60" width="120" x="100" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kH4mchJNZgV38grMBDT--2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="EC2 instance" vertex="1">
+          <mxGeometry height="60" width="120" x="100" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="kH4mchJNZgV38grMBDT--13" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="150" width="130" x="100" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="kH4mchJNZgV38grMBDT--12" parent="kH4mchJNZgV38grMBDT--13" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;verticalAlign=top;" value="Machine&lt;div&gt;config&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="130" as="geometry" />
+        </mxCell>
+        <mxCell id="kH4mchJNZgV38grMBDT--4" parent="kH4mchJNZgV38grMBDT--13" style="points=[[0,0.5,0],[0.24,0,0],[0.5,0.28,0],[0.995,0.475,0],[0.5,0.72,0],[0.24,1,0]];verticalLabelPosition=bottom;sketch=0;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.key2;fillColor=none;strokeColor=#005073;fontSize=8;" value="cluster secret" vertex="1">
+          <mxGeometry height="22.5" width="50" x="9.99666666666667" y="89.99882352941177" as="geometry" />
+        </mxCell>
+        <mxCell id="kH4mchJNZgV38grMBDT--6" parent="kH4mchJNZgV38grMBDT--13" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fontSize=10;" value="Talos&lt;div&gt;CA&lt;/div&gt;&lt;div&gt;cert&lt;/div&gt;" vertex="1">
+          <mxGeometry height="63.529411764705884" width="53.333333333333336" x="66.67000000000007" y="75.88235294117646" as="geometry" />
+        </mxCell>
+        <mxCell id="kH4mchJNZgV38grMBDT--7" parent="kH4mchJNZgV38grMBDT--13" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Talos&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;endpoint&lt;/span&gt;" vertex="1">
+          <mxGeometry height="31.764705882352942" width="64" x="30" y="44.117647058823536" as="geometry" />
+        </mxCell>
+        <mxCell id="kH4mchJNZgV38grMBDT--16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Read machine config&lt;div&gt;and configure&amp;nbsp;&lt;/div&gt;&lt;div&gt;disk and network&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="130" x="30" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="kH4mchJNZgV38grMBDT--21" edge="1" parent="1" source="kH4mchJNZgV38grMBDT--22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="kH4mchJNZgV38grMBDT--24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kH4mchJNZgV38grMBDT--22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="EC2 instance" vertex="1">
+          <mxGeometry height="60" width="120" x="100" y="1150" as="geometry" />
+        </mxCell>
+        <mxCell id="kH4mchJNZgV38grMBDT--23" edge="1" parent="1" source="kH4mchJNZgV38grMBDT--24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" target="kH4mchJNZgV38grMBDT--22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kH4mchJNZgV38grMBDT--24" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="k8s&lt;div&gt;api&lt;/div&gt;&lt;div&gt;nlb&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="345" y="1140" as="geometry" />
+        </mxCell>
+        <mxCell id="kH4mchJNZgV38grMBDT--25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Let me into the k8s cluster" vertex="1">
+          <mxGeometry height="30" width="110" x="250" y="1120" as="geometry" />
+        </mxCell>
+        <mxCell id="kH4mchJNZgV38grMBDT--26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Ok, here&#39;s some certs for you" vertex="1">
+          <mxGeometry height="30" width="90" x="230" y="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="kH4mchJNZgV38grMBDT--27" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" value="k8s&lt;div&gt;node&lt;/div&gt;&lt;div&gt;certs&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="40" x="320" y="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="kH4mchJNZgV38grMBDT--29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="K8s cluster bootstrap phase" vertex="1">
+          <mxGeometry height="20" width="840" y="1090" as="geometry" />
+        </mxCell>
+        <mxCell id="kH4mchJNZgV38grMBDT--31" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Talos cluster join phase" vertex="1">
+          <mxGeometry height="20" width="840" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="kH4mchJNZgV38grMBDT--32" edge="1" parent="1" source="kH4mchJNZgV38grMBDT--33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="kH4mchJNZgV38grMBDT--35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kH4mchJNZgV38grMBDT--33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="EC2 instance" vertex="1">
+          <mxGeometry height="60" width="120" x="100" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="kH4mchJNZgV38grMBDT--34" edge="1" parent="1" source="kH4mchJNZgV38grMBDT--35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" target="kH4mchJNZgV38grMBDT--33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kH4mchJNZgV38grMBDT--35" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="talos&lt;div&gt;api&lt;/div&gt;&lt;div&gt;nlb&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="345" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="kH4mchJNZgV38grMBDT--36" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Let me into the talos cluster" vertex="1">
+          <mxGeometry height="30" width="110" x="250" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="kH4mchJNZgV38grMBDT--37" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Ok, here&#39;s the cluster config" vertex="1">
+          <mxGeometry height="30" width="90" x="230" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="kH4mchJNZgV38grMBDT--40" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="K8s bootstrap phase" vertex="1">
+          <mxGeometry height="20" width="840" y="940" as="geometry" />
+        </mxCell>
+        <mxCell id="kH4mchJNZgV38grMBDT--41" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="EC2 instance" vertex="1">
+          <mxGeometry height="60" width="120" x="105" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="kH4mchJNZgV38grMBDT--42" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Download kubelet container" vertex="1">
+          <mxGeometry height="30" width="150" x="240" y="1010" as="geometry" />
+        </mxCell>
+        <mxCell id="kH4mchJNZgV38grMBDT--43" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Talos cluster bootstrap phase" vertex="1">
+          <mxGeometry height="20" width="840" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="kH4mchJNZgV38grMBDT--44" edge="1" parent="1" source="kH4mchJNZgV38grMBDT--45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="kH4mchJNZgV38grMBDT--47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kH4mchJNZgV38grMBDT--45" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="EC2 instance" vertex="1">
+          <mxGeometry height="60" width="120" x="100" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="kH4mchJNZgV38grMBDT--46" edge="1" parent="1" source="kH4mchJNZgV38grMBDT--47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" target="kH4mchJNZgV38grMBDT--45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kH4mchJNZgV38grMBDT--47" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="talos&lt;div&gt;trustd&lt;/div&gt;&lt;div&gt;nlb&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="345" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="kH4mchJNZgV38grMBDT--48" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="I have a secret" vertex="1">
+          <mxGeometry height="30" width="110" x="250" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="kH4mchJNZgV38grMBDT--49" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Ok, here&#39;s some certs for you" vertex="1">
+          <mxGeometry height="30" width="90" x="230" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="kH4mchJNZgV38grMBDT--50" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" value="talos&lt;div&gt;node&lt;/div&gt;&lt;div&gt;certs&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="40" x="320" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="kH4mchJNZgV38grMBDT--51" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="K8s cluster join phase" vertex="1">
+          <mxGeometry height="20" width="840" y="1280" as="geometry" />
+        </mxCell>
+        <mxCell id="kH4mchJNZgV38grMBDT--52" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="EC2 instance" vertex="1">
+          <mxGeometry height="60" width="120" x="105" y="1350" as="geometry" />
+        </mxCell>
+        <mxCell id="kH4mchJNZgV38grMBDT--53" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="In cluster, but NOT Ready" vertex="1">
+          <mxGeometry height="30" width="150" x="100" y="1310" as="geometry" />
+        </mxCell>
+        <mxCell id="kH4mchJNZgV38grMBDT--55" edge="1" parent="1" source="kH4mchJNZgV38grMBDT--54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" target="kH4mchJNZgV38grMBDT--52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kH4mchJNZgV38grMBDT--59" edge="1" parent="1" source="kH4mchJNZgV38grMBDT--54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="kH4mchJNZgV38grMBDT--52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kH4mchJNZgV38grMBDT--60" edge="1" parent="1" source="kH4mchJNZgV38grMBDT--54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" target="kH4mchJNZgV38grMBDT--52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kH4mchJNZgV38grMBDT--54" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Talos CCM&lt;br&gt;node&lt;br&gt;controller" vertex="1">
+          <mxGeometry height="60" width="120" x="450" y="1350" as="geometry" />
+        </mxCell>
+        <mxCell id="kH4mchJNZgV38grMBDT--58" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 11px; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;Sees the new Node&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="310" y="1340" as="geometry" />
+        </mxCell>
+        <mxCell id="kH4mchJNZgV38grMBDT--61" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Remove external-cloud taint" vertex="1">
+          <mxGeometry height="30" width="160" x="270" y="1360" as="geometry" />
+        </mxCell>
+        <mxCell id="kH4mchJNZgV38grMBDT--62" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Sets spec.providerId" vertex="1">
+          <mxGeometry height="20" width="120" x="280" y="1380" as="geometry" />
+        </mxCell>
+        <mxCell id="kH4mchJNZgV38grMBDT--63" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="K8s cluster join phase" vertex="1">
+          <mxGeometry height="20" width="840" y="1450" as="geometry" />
+        </mxCell>
+        <mxCell id="kH4mchJNZgV38grMBDT--64" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="EC2 instance" vertex="1">
+          <mxGeometry height="60" width="120" x="107.5" y="1510" as="geometry" />
+        </mxCell>
+        <mxCell id="kH4mchJNZgV38grMBDT--65" edge="1" parent="1" source="kH4mchJNZgV38grMBDT--68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" target="kH4mchJNZgV38grMBDT--64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kH4mchJNZgV38grMBDT--66" edge="1" parent="1" source="kH4mchJNZgV38grMBDT--68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="kH4mchJNZgV38grMBDT--64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kH4mchJNZgV38grMBDT--67" edge="1" parent="1" source="kH4mchJNZgV38grMBDT--68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" target="kH4mchJNZgV38grMBDT--64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kH4mchJNZgV38grMBDT--68" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="AWS CCM&lt;br&gt;node-lifecycle&lt;br&gt;controller" vertex="1">
+          <mxGeometry height="60" width="120" x="560" y="1510" as="geometry" />
+        </mxCell>
+        <mxCell id="kH4mchJNZgV38grMBDT--69" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 11px; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;Verifies node and removes?&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="187.5" x="312.5" y="1500" as="geometry" />
+        </mxCell>
+        <mxCell id="kH4mchJNZgV38grMBDT--70" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="node.cloudprovider.kubernetes.io/uninitialized" vertex="1">
+          <mxGeometry height="20" width="280" x="250" y="1520" as="geometry" />
+        </mxCell>
+        <mxCell id="kH4mchJNZgV38grMBDT--71" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Verifies IP addresses" vertex="1">
+          <mxGeometry height="20" width="120" x="346.25" y="1540" as="geometry" />
+        </mxCell>
+        <mxCell id="kH4mchJNZgV38grMBDT--72" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="In cluster, but NOT Ready" vertex="1">
+          <mxGeometry height="30" width="150" x="100" y="1480" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

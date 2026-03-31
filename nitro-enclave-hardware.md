@@ -18,4 +18,4 @@ Enclaves are highly restricted VMs that boot from an EIF format, which is a cont
 
 Host VM/Enclave communication occurs over a Linux VSOCK which is mediated by the Nitro Controller through the PCIe bus.
 
-At Turnkey the host communication with the Nitro Controller is managed by the [enclave-controller](https://github.com/tkhq/mono/tree/main/src/go/enclave-controller).
+At Turnkey the host communication with the Nitro Controller is managed by deployments managed by the [enclave-controller](https://github.com/tkhq/mono/tree/main/src/go/enclave-controller).
